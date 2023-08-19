@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: Kingslay;
+    font-family: kingslay;
     font-weight: 400;
     src: url('kingslay.woff2');
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .logo-text {
-  font: 400 60px/1.5 Kingslay, sans-serif;
+  font: 400 60px/1.5 kingslay, sans-serif;
   color: #FCEE0A;
 }
 
