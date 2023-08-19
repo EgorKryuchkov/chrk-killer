@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: Kingslay;
+    font-weight: 400;
+    src: url('kingslay.woff2');
+}
+
+@font-face {
+    font-family: BlenderProBook;
+    font-weight: 400;
+    src: url('assets/fonts/BlenderPro-Book.woff2');
+}
+
+@font-face {
+    font-family: BlenderProBold;
+    font-weight: 700;
+    src: url('assets/fonts/BlenderPro-Bold.woff2');
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  color: black;
+
+  font: 20px/1.5 BlenderProBook, sans-serif;
+
+  background: #FCEE0A;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.8));
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.logo-text {
+  font: 400 60px/1.5 Kingslay, sans-serif;
+  color: #FCEE0A;
+}
+
+.menu-list {
+  display: flex;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #FCEE0A;
+  width: 40%;
+  height: 60%;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.menu-item {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  font: 400 16.5px/1.5 BlenderBookBook, sans-serif;
+}
+
+#buy {
+  background: #FCEE0A;
+  color: black;
+  font: 16.5px/1.5 "Kingslay", sans-serif;
+}
+
+.menu-item:hover {
+  background: #FCEE0A;
+  color: black;
+}
